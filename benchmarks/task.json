@@ -1,15 +1,15 @@
 {
-    "c5.9xlarge": {
+    "p3.2xlarge": {
         "tests": [
-            "model"
+            ""
         ],
         "env": {
-            "DEVICE": "cpu"
+            "DEVICE": "gpu"
         }
     },
     "g4dn.8xlarge": {
         "tests": [
-            "model"
+            ""
         ],
         "env": {
             "DEVICE": "gpu"
