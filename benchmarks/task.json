@@ -1,18 +1,10 @@
 {
-    "p3.2xlarge": {
+    "c5.9xlarge": {
         "tests": [
-            ""
+            "api", "kernel"
         ],
         "env": {
-            "DEVICE": "gpu"
-        }
-    },
-    "g4dn.8xlarge": {
-        "tests": [
-            ""
-        ],
-        "env": {
-            "DEVICE": "gpu"
+            "DEVICE": "cpu"
         }
     }
 }
