@@ -1,7 +1,7 @@
 {
     "c5.9xlarge": {
         "tests": [
-            "bench_all_edges"
+            "model"
         ],
         "env": {
             "DEVICE": "cpu"
